@@ -15,6 +15,7 @@ defmodule HomeTest do
 
     fact "returns body" do
       conn = get("/")
+      conn.sent_body |> contains "Welcome to Dynamo"
       conn.sent_body |> contains %r"Welcome to Dynamo"
     end
   end
