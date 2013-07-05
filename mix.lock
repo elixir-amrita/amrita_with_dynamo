@@ -1,4 +1,4 @@
-[ "amrita": {:git,"git://github.com/josephwilk/amrita.git","96efa095c467135ad355886f475287aa05b3b4fb",[]},
+[ "amrita": {:git,"git://github.com/josephwilk/amrita.git","a90dd9194f41a07613597394905ab1bbd2ddc210",[]},
   "cowboy": {:git,"git://github.com/extend/cowboy.git","39caf34fe3bc0a3c89ac8a06428542555f8e13c1",[]},
   "dynamo": {:git,"git://github.com/elixir-lang/dynamo.git","e03ff7d50b2b220121a2a30b0bde42faeaca5e07",[]},
   "meck": {:git,"git://github.com/eproxus/meck.git","161e240166a0d20e9ffa2be5d0bfa6a981f12aef",[]},
