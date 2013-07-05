@@ -1,9 +1,9 @@
 Code.require_file "../../test_helper.exs", __FILE__
 
 defmodule ApplicationRouterTest do
-  use Amrita.Sweet
   use AmritaDynamo.TestCase
   use Dynamo.HTTP.Case
+  use Amrita.Sweet
 
   @endpoint ApplicationRouter
 
