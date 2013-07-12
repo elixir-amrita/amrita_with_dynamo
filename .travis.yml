@@ -1,5 +1,5 @@
 language: erlang
-script: mix test
+script: mix do clean, test
 otp_release:
   - R16B
 before_install:
