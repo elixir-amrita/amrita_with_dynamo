@@ -19,7 +19,7 @@ defmodule AmritaDynamo.Mixfile do
 
   defp deps do
     [ { :cowboy, %r(.*), github: "extend/cowboy" },
-      { :dynamo, %r(.*) github: "elixir-lang/dynamo" },
+      { :dynamo, %r(.*), github: "elixir-lang/dynamo" },
       { :amrita, %r(.*), github: "josephwilk/amrita" } ]
   end
 end
