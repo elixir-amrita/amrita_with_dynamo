@@ -1,6 +1,6 @@
-[ "amrita": {:git,"git://github.com/josephwilk/amrita.git","a90dd9194f41a07613597394905ab1bbd2ddc210",[]},
-  "cowboy": {:git,"git://github.com/extend/cowboy.git","39caf34fe3bc0a3c89ac8a06428542555f8e13c1",[]},
-  "dynamo": {:git,"git://github.com/elixir-lang/dynamo.git","e03ff7d50b2b220121a2a30b0bde42faeaca5e07",[]},
-  "meck": {:git,"git://github.com/eproxus/meck.git","161e240166a0d20e9ffa2be5d0bfa6a981f12aef",[]},
-  "mimetypes": {:git,"git://github.com/spawngrid/mimetypes.git","47d37a977a7d633199822bf6b08353007483d00f",[]},
-  "ranch": {:git,"git://github.com/extend/ranch.git","4f70a16bbe08e446e8fec248ca345d5f8e7df038",[ref: "0.8.4"]} ]
+[ "amrita": {:git, "git://github.com/josephwilk/amrita.git", "d817d080fac783a7cc30104998c6d66ac88efe48", []},
+  "cowboy": {:git, "git://github.com/extend/cowboy.git", "39caf34fe3bc0a3c89ac8a06428542555f8e13c1", []},
+  "dynamo": {:git, "git://github.com/elixir-lang/dynamo.git", "541ec3b34278fb0a4a0dcc127d80630d6300fe9a", []},
+  "meck": {:git, "git://github.com/eproxus/meck.git", "161e240166a0d20e9ffa2be5d0bfa6a981f12aef", []},
+  "mimetypes": {:git, "git://github.com/spawngrid/mimetypes.git", "47d37a977a7d633199822bf6b08353007483d00f", []},
+  "ranch": {:git, "git://github.com/extend/ranch.git", "4f70a16bbe08e446e8fec248ca345d5f8e7df038", [ref: "0.8.4"]} ]
