@@ -4,6 +4,7 @@ otp_release:
   - R16B
 before_install:
   - mkdir -p vendor/elixir
-  - wget -q http://dl.dropbox.com/u/4934685/elixir/v0.9.3.zip && unzip -qq v0.9.3.zip -d vendor/elixir
+  - git clone --quiet https://github.com/elixir-lang/elixir.git vendor/elixir
+  - make --quiet -C vendor/elixir > /dev/null 2>&1
   - export PATH="$PATH:$PWD/vendor/elixir/bin"
   - MIX_ENV=test mix deps.get
