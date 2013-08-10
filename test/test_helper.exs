@@ -1,8 +1,8 @@
-Dynamo.under_test(AmritaDynamo.Dynamo)
+Dynamo.under_test(AmritaWithDynamo.Dynamo)
 Dynamo.Loader.enable
 Amrita.start
 
-defmodule AmritaDynamo.TestCase do
+defmodule AmritaWithDynamo.TestCase do
   use ExUnit.CaseTemplate
 
   # Enable code reloading on test cases
